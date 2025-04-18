@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript & DOM Magic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome </h1>
+    <p id="clock">--:--:--</p>
+    <button onclick="toggleTheme()">Toggle Theme 🌗</button>
+  </header>
+
+  <main>
+    <section>
+      <p id="description">Click the button to change this text and style!</p>
+      <button onclick="changeContent()">Change Text & Style</button>
+    </section>
+
+    <section>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+      <div id="dynamic-element"></div>
+    </section>
+
+    <section>
+      <h2>Counter</h2>
+      <p id="counter">0</p>
+      <button onclick="increment()">➕</button>
+      <button onclick="decrement()">➖</button>
+      <button onclick="reset()">🔁</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Joel Ngari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

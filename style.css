@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.4s, color 0.4s;
+  }
+  
+  .dark {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #clock {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
